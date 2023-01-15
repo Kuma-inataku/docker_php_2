@@ -1,5 +1,2 @@
-## このリポジトリは？
-dockerでnginx+php+mysqlが動くよう作成しました。
-docker-composeはversion3で書いています。
-
-https://docs.docker.com/compose/compose-file/
+参考にさせていただきました
+https://codelikes.com/beginner-guide-docker-php/
