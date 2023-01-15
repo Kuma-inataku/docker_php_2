@@ -10,7 +10,7 @@ services:
       - db
     volumes:
       - ./nginx/codelike_server.conf:/etc/nginx/conf.d/default.conf
-      - ../:/var/www/html
+      - ../htdocs:/var/www/html/
 
   php:
     build: ./php
@@ -18,7 +18,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ../:/var/www/html
+      - ..//htdocs:/var/www/html
       - ./php/log/:/var/log/php/
 
   phpmyadmin:
